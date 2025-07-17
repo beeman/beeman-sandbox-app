@@ -96,6 +96,16 @@ describe('routes', () => {
               "file": "features/homepage/route-about.tsx",
               "path": "about",
             },
+            {
+              "children": undefined,
+              "file": "features/homepage/route-privacy.tsx",
+              "path": "privacy",
+            },
+            {
+              "children": undefined,
+              "file": "features/homepage/route-tos.tsx",
+              "path": "tos",
+            },
           ],
           "file": "features/homepage/layout-homepage.tsx",
         },
