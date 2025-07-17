@@ -1,4 +1,4 @@
-import { index, layout, prefix, type RouteConfig, route } from '@react-router/dev/routes'
+import { index, layout, prefix, route, type RouteConfig } from '@react-router/dev/routes'
 import { adminUserRoutes } from './features/user'
 
 export default [
@@ -33,5 +33,7 @@ export default [
   layout('features/homepage/layout-homepage.tsx', [
     index('features/homepage/route-index.tsx'),
     route('about', 'features/homepage/route-about.tsx'),
+    route('privacy', 'features/homepage/route-privacy.tsx'),
+    route('tos', 'features/homepage/route-tos.tsx'),
   ]),
 ] satisfies RouteConfig
