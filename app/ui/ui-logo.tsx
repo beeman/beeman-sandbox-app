@@ -11,7 +11,7 @@ export function UiLogo({ size = 42 }: AppLogoProps) {
   return (
     <Group align="center" gap="xs" wrap="nowrap">
       <Image src={config.logo} alt="logo" height={size} width={size} />
-      <Text size="lg" fw="bold" visibleFrom="sm">
+      <Text size="lg" fw="bold" visibleFrom="sm" style={{ whiteSpace: 'nowrap' }}>
         {config.name}
       </Text>
     </Group>
