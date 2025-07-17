@@ -11,9 +11,7 @@ export default function RouteTos() {
       <Paper withBorder p="md">
         <Stack>
           <Text>Terms of Service</Text>
-          <Text>
-            By accessing or using Beeman Sandbox, you agree to be bound by these Terms of Service.
-          </Text>
+          <Text>By accessing or using Beeman Sandbox, you agree to be bound by these Terms of Service.</Text>
           <Text>
             You are responsible for your use of the service and for any content you provide. You must comply with all
             applicable laws, rules, and regulations.
