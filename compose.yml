@@ -1,0 +1,11 @@
+services:
+  postgres:
+    image: postgres:17-alpine
+    ports:
+      - '5432:5432'
+    environment:
+      POSTGRES_DB: beeman-sandbox-app
+      POSTGRES_USER: beeman-sandbox-app
+      POSTGRES_PASSWORD: beeman-sandbox-app
+    volumes:
+      - ./tmp/postgres:/var/lib/postgresql/data

@@ -1,0 +1,16 @@
+.DS_Store
+/node_modules/
+
+# React Router
+/.react-router/
+/build/
+/dist/
+/tmp/
+.env
+
+/app/lib/generated/prisma
+
+# Logs
+logs
+*.log
+pnpm-debug.log*
