@@ -6,7 +6,7 @@ import { UiContextProvider } from '~/ui/ui-context-provider'
 export function testRender(ui: React.ReactNode) {
   return testingLibraryRender(<>{ui}</>, {
     wrapper: ({ children }: { children: React.ReactNode }) => (
-      <UiContextProvider config={{ name: 'Beemansandboxapp Test', logo: '/logo.svg' }}>
+      <UiContextProvider config={{ name: 'Beeman Sandbox Test', logo: '/logo.svg' }}>
         <UiThemeProvider colorScheme="dark" env="test">
           {children}
         </UiThemeProvider>

@@ -53,7 +53,7 @@ export default function App() {
   return (
     <UiContextProvider
       config={{
-        name: 'Beemansandboxapp',
+        name: 'Beeman Sandbox',
         logo: '/logo.svg',
       }}
     >

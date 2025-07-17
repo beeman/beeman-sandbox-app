@@ -28,7 +28,7 @@ export async function action({ request }: Route.ActionArgs) {
 }
 
 export function meta() {
-  return appMeta('User create', 'The Beemansandboxapp User create page')
+  return appMeta('User create', 'The Beeman Sandbox User create page')
 }
 
 export default function AdminUserCreate() {

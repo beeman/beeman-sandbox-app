@@ -41,7 +41,7 @@ export async function action({ request, params: { id } }: Route.ActionArgs) {
 export function meta(meta: Route.MetaArgs) {
   return appMeta(
     `${meta.data?.item?.username} - User detail`,
-    `The Beemansandboxapp User detail page for ${meta.data?.item?.username}`,
+    `The Beeman Sandbox User detail page for ${meta.data?.item?.username}`,
   )
 }
 

@@ -29,7 +29,7 @@ export async function action({ request }: Route.ActionArgs) {
 }
 
 export function meta() {
-  return appMeta('Users', 'The Beemansandboxapp Users page')
+  return appMeta('Users', 'The Beeman Sandbox Users page')
 }
 
 export default function AdminUserList({ loaderData: { items } }: Route.ComponentProps) {

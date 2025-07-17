@@ -6,6 +6,6 @@ import { UiFooter } from './ui-footer'
 describe('UiFooter', () => {
   it('should render the app name and copyright year', () => {
     testRender(<UiFooter />)
-    expect(screen.getByText('Beemansandboxapp Test © 2025')).toBeInTheDocument()
+    expect(screen.getByText('Beeman Sandbox Test © 2025')).toBeInTheDocument()
   })
 })

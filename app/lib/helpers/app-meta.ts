@@ -1,9 +1,9 @@
 export function appMeta(title?: string, description?: string) {
   return [
-    { title: `${title ? title + ' | ' : ''}Beemansandboxapp` },
+    { title: `${title ? title + ' | ' : ''}Beeman Sandbox` },
     {
       name: 'description',
-      content: description ? description : 'Default Beemansandboxapp description',
+      content: description ? description : 'Default Beeman Sandbox description',
     },
   ]
 }
