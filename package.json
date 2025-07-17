@@ -9,10 +9,10 @@
     "docker:run": "docker run -it --rm --name beeman-sandbox-app --env-file .env -e DATABASE_URL=postgresql://beeman-sandbox-app:beeman-sandbox-app@host.docker.internal:5432/beeman-sandbox-app?schema=public -p 3000:3000 beeman-sandbox-app:latest",
     "format": "prettier --write .",
     "lint": "prettier --check .",
-    "postinstall": "prisma generate",
+    "postinstall": "npm run prisma:generate",
     "prisma:deploy": "prisma migrate deploy",
-    "prisma:generate": "prisma generate",
-    "start": "prisma migrate deploy && prisma generate && react-router-serve ./build/server/index.js",
+    "prisma:generate": "prisma generate && prettier --write app/lib/generated",
+    "start": "prisma migrate deploy && npm run prisma:generate && react-router-serve ./build/server/index.js",
     "test": "vitest",
     "typecheck": "react-router typegen && tsc"
   },
